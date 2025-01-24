@@ -5,6 +5,7 @@ I have created this calculator Project in My Full Stack Journey with the Guidanc
 Features:- 
         User Interface: The calculator has a user-friendly interface with buttons for digits, basic arithmetic operations, a decimal point, and all-clear function.
                         The layout is designed to be simple and easy to use.
+                        
         Functionality:  The calculator supports addition, subtraction, multiplication and division. It also handles decimal calculations accurately. 
         Responsive Design: The calculator is designed to be responsive, ensuring it works well on various screen sizes, from desktops to mobile devices. 
         JavaScript Logic: The core functionality of the calculator, including handling button clicks and performing calculations, is implemented in JavaScript. This 
