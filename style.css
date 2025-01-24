@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 550px;
+    width: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, black, white);
+}
+
+.Calculator {
+    margin-top: 100px;
+    border: 1px solid maroon;
+    padding: 20px;
+    border-radius: 16px;
+    background: aqua;
+    box-shadow: 1px 3px 15px purple;
+}
+
+input {
+    width: 88%;
+    border: black;
+    padding: 4px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 1px 3px 15px black;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: purple;
+}
+
+button {
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: black;
+    font-size: 30px;
+    box-shadow: 6px 6px 15px black;
+    cursor: pointer;
+}
+
+.equalbtn {
+    background-color: white;
+}
+
+.acbtn {
+    background-color: orange;
+}
+
+.delbtn {
+    background-color: orange;
+}
